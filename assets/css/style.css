@@ -71,9 +71,8 @@ footer {
     text-align: center;
     color: white;
     padding: 10px 0;
-    border-top: 5px solid #4aaaa5;
     position: relative;
-    margin-top: 15px;
+    margin-top: 0;
 
 }
 
@@ -127,9 +126,34 @@ input[type="submit"]:hover {
 
 .portfolio h6:hover{
     background-color: orangered;
+}
 
-@media screen and (max-width: 500px){
-    header a {
-        display: block;
+
+.box {
+    display: inline-block;
+    background: orangered;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    vertical-align: bottom;
+    margin-bottom: 0;
+    animation: bottomBorder 2s ease-out 0s 1 normal forwards running;
+
+}
+
+@keyframes bottomBorder {
+    0% {
+        height: 5px;
+    
     }
+    99% {
+        width: 99%; 
+        background-color: orangered;
+    }
+    100% {
+        width: 100%;
+        background-color: #4aaaa5;
+    }
+
+    
 }
