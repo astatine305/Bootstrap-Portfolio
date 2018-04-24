@@ -1,0 +1,135 @@
+#logo {
+    background-color: #4aaaa5;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 10px;
+
+}
+
+body {
+    color: #777777;
+    font-family: "Arial", "Hevlvetica Neue", Helvetica, sans-serif;
+    background-image: url("../images/greySandbag.png")
+}
+
+#nav{
+    padding: 0;
+}
+
+/* link hover color */
+#navbarNavAltMarkup a:hover{
+    color: orangered;
+}
+
+header {
+    padding: 0px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.container {
+    padding-bottom: 15px;
+}
+
+.container img {
+    width: 110px;
+    height: 115px;
+ 
+}
+.body {
+    border: 1px solid #ccc;
+    background-color: white;
+    margin-top: 15px;
+
+}
+
+.row h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 20px 0px 20px;
+    color: #4aaaa5;
+}
+
+.col-md-2 img{
+    padding-right: 0px;
+}
+
+hr {
+    border: 2px solid #cccccc;
+}
+
+header .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    border-top: 5px solid #4aaaa5;
+    position: relative;
+    margin-top: 15px;
+
+}
+
+/* Format inputs with type = 'text' */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px color #ccc;
+    box-sizing: border-box;
+    resize: vertical; /* allow user to resize textarea vertically */
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* Format Submit button */
+input[type="submit"] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    
+}
+
+/* hover color for submit button */
+input[type="submit"]:hover {
+    background-color: orangered;
+}
+
+.portfolio {
+    display: inline-block;
+    border: 1px solid orange;
+    margin: 10px;
+    height: 150px;
+    padding: 0;
+    background-image: url(../images/image.jpg);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+
+}
+
+/* project's div background and text */
+.portfolio h6 {
+    margin: 15px 0 0 0;
+    background-color: #4aaaa5;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.portfolio h6:hover{
+    background-color: orangered;
+
+@media screen and (max-width: 500px){
+    header a {
+        display: block;
+    }
+}
