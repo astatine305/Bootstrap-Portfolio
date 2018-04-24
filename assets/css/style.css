@@ -40,6 +40,7 @@ header {
     border: 1px solid #ccc;
     background-color: white;
     margin-top: 15px;
+    padding-bottom: 10px;
 
 }
 
@@ -144,7 +145,7 @@ input[type="submit"]:hover {
     
     }
     99% {
-        width: 99%; 
+        width: 100%; 
         background-color: orangered;
     }
     100% {
